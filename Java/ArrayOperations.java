@@ -30,7 +30,8 @@ public class ArrayOperations {
                 j++;
             }
         }
-        System.out.println("Array after inserting " + newValue + " at index " + insertIndex + ": " + Arrays.toString(newArr));
+        System.out.println(
+                "Array after inserting " + newValue + " at index " + insertIndex + ": " + Arrays.toString(newArr));
 
         // Delete an element at a specific index
         int deleteIndex = 1;
@@ -42,6 +43,7 @@ public class ArrayOperations {
                 j++;
             }
         }
-        System.out.println("Array after deleting element at index " + deleteIndex + ": " + Arrays.toString(newArrAfterDeletion));
+        System.out.println(
+                "Array after deleting element at index " + deleteIndex + ": " + Arrays.toString(newArrAfterDeletion));
     }
 }
