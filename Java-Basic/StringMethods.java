@@ -1,6 +1,6 @@
 package Java;
 
-public class Primitive {
+public class StringMethods {
 
   public static void main(String[] args) {
     string_thing("Name");
@@ -42,5 +42,5 @@ public class Primitive {
     System.out.println(uppername);
     System.out.println(lowercase);
   }
-  
+
 }
