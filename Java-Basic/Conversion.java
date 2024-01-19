@@ -10,6 +10,9 @@ public class Conversion {
         double pi = 3.14;
         String strPi = String.valueOf(pi);
 
+        char s = strNumber.charAt(1); // 42
+        System.out.println(s); // 2
+
         String StringNum = "42";
         int string_to_number  = Integer.parseInt(StringNum);
     }
